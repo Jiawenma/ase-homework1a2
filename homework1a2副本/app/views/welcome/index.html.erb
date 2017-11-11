@@ -1,0 +1,15 @@
+<div id="jnkc">
+</div>
+<script>setInterval("jnkc.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+</script>
+<h1>Hello </h1>
+<div id="link"><a href="http://www.baidu.com">找度娘</a></div>
+<style>
+h1{
+  background-color: red;text-align:center;
+}
+#link{text-align:center;
+}
+</style>
+<%= link_to 'my blog', controller: 'articles'%>
+<%= link_to 'New article', new_article_path %>
